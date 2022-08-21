@@ -1,3 +1,3 @@
-# TSNodeProjectTemplate
+# Abstract Strategy
 
-Typescript & Node project template
+A highly customizable simultaneous-turn-based strategy game based on graphs.

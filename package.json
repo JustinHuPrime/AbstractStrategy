@@ -1,7 +1,7 @@
 {
-  "name": "tsnodeprojecttemplate",
+  "name": "abstract-strategy",
   "version": "0.1.0",
-  "description": "TS and Node project template",
+  "description": "A highly customizable simultaneous-turn-based strategy game based on graphs.",
   "scripts": {
     "cover": "nyc --reporter text --reporter html npm run test",
     "build": "npm run build-client && npm run build-server",
@@ -14,17 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustinHuPrime/TSNodeProjectTemplate.git"
+    "url": "git+https://github.com/JustinHuPrime/AbstractStrategy.git"
   },
-  "keywords": [
-    "template"
-  ],
   "author": "Justin Hu <justin.hu@alumni.ubc.ca>",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/JustinHuPrime/TSNodeProjectTemplate/issues"
+    "url": "https://github.com/JustinHuPrime/AbstractStrategy/issues"
   },
-  "homepage": "https://github.com/JustinHuPrime/TSNodeProjectTemplate#readme",
+  "homepage": "https://github.com/JustinHuPrime/AbstractStrategy#readme",
   "engines": {
     "node": ">= 16 < 17"
   },
