@@ -1,4 +1,5 @@
-// Copyright 2022 Justin Hu
+// Copyright 2023 Justin Hu
+//
 // This file is part of Abstract Strategy.
 //
 // Abstract Strategy is free software: you can redistribute it and/or modify it

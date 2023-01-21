@@ -1,4 +1,5 @@
-// Copyright 2022 Justin Hu
+// Copyright 2023 Justin Hu
+//
 // This file is part of Abstract Strategy.
 //
 // Abstract Strategy is free software: you can redistribute it and/or modify it
@@ -16,4 +17,23 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-console.log("Hello, world!");
+interface Props {}
+
+interface State {}
+
+class SceneContainer extends React.Component<Props, State> {
+  constructor(props: {}) {
+    super(props);
+  }
+
+  public override render(): JSX.Element {
+    return <h1>Hello, world!</h1>;
+  }
+}
+
+ReactDOM.render(
+  <React.StrictMode>
+    <SceneContainer />
+  </React.StrictMode>,
+  document.getElementById("root"),
+);

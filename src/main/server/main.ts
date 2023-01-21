@@ -1,4 +1,5 @@
-// Copyright 2022 Justin Hu
+// Copyright 2023 Justin Hu
+//
 // This file is part of Abstract Strategy.
 //
 // Abstract Strategy is free software: you can redistribute it and/or modify it
@@ -16,41 +17,4 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-import * as process from "process";
-import GameServer from "./server";
-
-function printUsage() {
-  console.error("Usage:");
-  console.error("npm start -- new <ruleset> <filename>");
-  console.error("npm start -- load <ruleset> <filename>");
-}
-
-if (process.argv.length <= 2) {
-  printUsage();
-  process.exit(1);
-}
-
-switch (process.argv[2]) {
-  case "new": {
-    if (process.argv.length !== 5) {
-      printUsage();
-      process.exit(1);
-    }
-
-    GameServer.newGame(process.argv[3] as string, process.argv[4] as string);
-    break;
-  }
-  case "load": {
-    if (process.argv.length !== 5) {
-      printUsage();
-      process.exit(1);
-    }
-
-    GameServer.newGame(process.argv[3] as string, process.argv[4] as string);
-    break;
-  }
-  default: {
-    printUsage();
-    process.exit(1);
-  }
-}
+console.log("Hello, world!");

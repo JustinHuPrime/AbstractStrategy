@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <!--
-Copyright 2022 Justin Hu
+Copyright 2023 Justin Hu
+
 This file is part of Abstract Strategy.
 
 Abstract Strategy is free software: you can redistribute it and/or modify it
@@ -12,7 +13,7 @@ any later version.
 Abstract Strategy is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
-more details. 
+more details.
 
 You should have received a copy of the GNU Affero General Public License along
 with Abstract Strategy. If not, see <https://www.gnu.org/licenses/>.
@@ -29,10 +30,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
     <link href="./style/main.css" rel="stylesheet" />
 
+    <script
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+
     <script src="./scripts/client/main.js" type="module"></script>
   </head>
 
-  <body>
-    <h1>Abstract Strategy</h1>
+  <body id="root">
+    <noscript>
+      <h1>JavaScript is required to play Abstract Strategy</h1>
+    </noscript>
   </body>
 </html>
